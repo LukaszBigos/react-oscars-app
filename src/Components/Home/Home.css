@@ -1,0 +1,31 @@
+.main-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main-content h2 {
+  padding: 2rem;
+}
+
+.main-content img {
+  width: 100%;
+  transition: all 0.4s linear;
+
+}
+
+img:hover {
+  transform: scaleX(1.12);
+  border-radius: 2px;
+}
+
+.thumbnails {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnails div {
+  height: 180px;
+  width: 180px;
+  background-color: salmon;
+}
